@@ -9,16 +9,13 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
 import SignIn from "./routes/authentication/authentication.component";
+import Shop from "./routes/shop/shop.component";
 
 // const router = createBrowserRouter(
 //   createRoutesFromElements(<Route path="/" element={<Home />}></Route>)
 // );
 
 // const App = () => <RouterProvider router={router} />;
-
-const Shop = () => {
-  return <div>I am the SHOP</div>;
-};
 
 const App = () => (
   <Routes>
